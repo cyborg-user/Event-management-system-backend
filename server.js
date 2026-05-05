@@ -3,6 +3,7 @@ import app from "./src/app.js"
 import { connect } from "node:http2"
 import connectDB from "./src/common/config/db.js"
 
+console.log("Server file started...");
 
 const PORT= process.env.PORT || 5000
 
